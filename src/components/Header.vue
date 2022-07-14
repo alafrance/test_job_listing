@@ -1,12 +1,11 @@
 <template>
-  <div>
-    <p>Coucou</p>
+  <div class="header">
+    <img src="@/assets/bg-header-mobile.svg" alt="Header Background" class="">
   </div>
 </template>
 
 <script>
 import {store} from "../store.js";
-
 export default {
   name: "Header",
   mounted() {
@@ -16,5 +15,13 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "../../scss/variables";
 
+.header {
+  img {
+    width: 100vw;
+    height: auto;
+  }
+  background-color: $color_primary;
+}
 </style>

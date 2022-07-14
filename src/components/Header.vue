@@ -19,8 +19,8 @@ export default {
 
 .header {
   img {
-    width: 100vw;
-    height: 100pxg;
+    width: 100%;
+    height: 100px;
   }
   background-color: $color_primary;
 }

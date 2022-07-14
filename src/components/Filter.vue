@@ -60,11 +60,15 @@ export default {
       align-items: center;
       padding: 5px;
       background-color: $color_primary;
+      cursor: pointer;
+
       i {
         color: white;
         font-size: 15px;
-        cursor: pointer;
 
+      }
+      &:hover {
+        background-color: $color_primary_hover;
       }
     }
   }

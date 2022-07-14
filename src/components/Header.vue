@@ -20,7 +20,7 @@ export default {
 .header {
   img {
     width: 100vw;
-    height: auto;
+    height: 100pxg;
   }
   background-color: $color_primary;
 }
